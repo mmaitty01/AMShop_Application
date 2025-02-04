@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp"
+        android:padding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#21232B">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pic_frame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#21232B"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/cart_p"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:alpha="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/temp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/Cart_name"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/pic_frame"
+                android:text="Steak"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Cart_price"
+                android:layout_width="51dp"
+                android:layout_height="47dp"
+                android:layout_below="@+id/Cart_name"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="135dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="24dp"
+
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@+id/pic_frame"
+                android:text="$ 200"
+                android:textColor="@color/whitepink"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

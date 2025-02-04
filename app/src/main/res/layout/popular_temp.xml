@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    android:padding="2dp">
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="4dp"
+        app:contentPadding="0dp"
+        android:padding="0dp">
+
+        <ImageView
+            android:id="@+id/iv_popular"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/ic_baseline_free_breakfast_24"
+            android:scaleType="fitXY"
+            android:layout_marginTop="19dp"
+            android:alpha="1"
+            android:layout_gravity="top|center"
+            />
+
+        <TextView
+            android:id="@+id/tv_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:text="ชื่อสินค้า"
+            android:textColor="#FB607F"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/tv_popular1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:text="ราคา"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_add_shopping_cart_24"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="19dp"
+            android:layout_marginRight="19dp"
+            android:alpha="1"
+            android:background="@color/black"
+            android:layout_gravity="bottom|right"
+            />
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <!--   <com.google.android.material.card.MaterialCardView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           app:cardBackgroundColor="@color/white"
+           app:cardCornerRadius="0dp"
+           app:cardElevation="0dp"
+           app:contentPadding="0dp"
+           android:layout_marginLeft="19dp"
+           android:padding="0dp">
+
+           <ImageView
+               android:id="@+id/iv_popular1"
+               android:layout_width="118dp"
+               android:layout_height="118dp"
+               android:layout_gravity="left|center"
+               android:layout_marginTop="-5dp"
+               android:alpha="1"
+               android:scaleType="fitXY"
+               android:src="@drawable/temp" />
+
+           <TextView
+               android:id="@+id/tv_popular1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="left|center"
+               android:layout_marginLeft="128dp"
+               android:text="B2S"
+               android:textColor="#000000"
+               android:textSize="20sp"
+               android:textStyle="bold" />
+           <TextView
+
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom|center"
+               android:layout_marginBottom="15dp"
+               android:text="สินค้าแนะนำ"
+               android:textColor="#000000"
+               android:textSize="22sp"
+               android:textStyle="bold" />
+
+
+       </com.google.android.material.card.MaterialCardView>-->
+
+
+</LinearLayout>
