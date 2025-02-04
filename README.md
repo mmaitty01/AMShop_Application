@@ -1,6 +1,6 @@
 # AMShop Application
 Welcome to **AMShop** an Android application that makes shopping smooth and convenient! Whether you're looking for fresh produce, delicious meals, or your next favorite book, AMShop has it all. This app is built with **Kotlin** and integrated with **Firebase**.
-<p align="center"><img width="800" src = "https://github.com/user-attachments/assets/ca182d1f-0007-4335-a753-58069ca23b66"></p>
+<p align="center"><img width="800" src = "https://github.com/user-attachments/assets/6770a142-8aa6-4566-8fa8-8f45e7ff77bc"></p>
 
 
 <p align="center" >
@@ -30,7 +30,7 @@ AMShop an Android application designed for shopping across various categories fr
 ## 🚀Getting Started
 
 To run this app on your local machine or Android device, follow these steps:
-1. Clone this repository to your local machine using `git clone https://github.com/............
+1. Clone this repository to your local machine using `git clone https://github.com/mmaitty01/AMShop_Application.git`
 2. Open the project in Android Studio or your preferred Android development environment.
 3. Build and run the application on an Android emulator or a physical Android device.
 
@@ -42,7 +42,8 @@ To run this app on your local machine or Android device, follow these steps:
 
 
 
-## 📱Screenshots
-<p align="center"><img width="300" src = "https://github.com/user-attachments/assets/fcdee724-fbe7-410f-b22a-44f428e21a2b">   <img width="300" src = "https://github.com/user-attachments/assets/6f0ebc38-86f8-4ab6-80eb-39b0ac2d5d0f"> </p>
 
-<p align="center"><img width="250" src = "https://github.com/user-attachments/assets/51b06663-f538-4f61-b919-9af04ff6af19">  <img width="250" src = "https://github.com/user-attachments/assets/e8c8460b-7496-4ccb-9f60-a623f30bfdac">  <img width="250" src = "https://github.com/user-attachments/assets/491dc934-8162-48b5-a9d2-9720c0767ef8"> </p>
+## 📱Screenshots
+<p align="center"><img width="300" src = "https://github.com/user-attachments/assets/c0d4602e-b9cb-4342-a500-c0c737f8f167">   <img width="300" src = "https://github.com/user-attachments/assets/e8c758dc-a4f2-4ba6-9d66-535a8c451ce1"> </p>
+
+<p align="center"><img width="250" src = "https://github.com/user-attachments/assets/c6bcf8b7-2d13-45ce-859b-94b2dbee4b90">  <img width="250" src = "https://github.com/user-attachments/assets/3d290c36-b6db-4b18-84f4-4b088b055628">  <img width="250" src = "https://github.com/user-attachments/assets/de9dd62a-a493-40f4-b4b0-7a6f69b07901"> </p>
